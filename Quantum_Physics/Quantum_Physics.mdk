@@ -8,7 +8,7 @@ Title         : My Academic Paper
 Author        : You
 Affiliation   : Research institute
 Email         : you@bar.com
-
+Aligned { replace:"~Math&nl;\begin{aligned}&nl;&source;&nl;\end{aligned}&nl;~" }
 Bibliography  : example.bib
 
 [INCLUDE=book]
@@ -22,6 +22,14 @@ Bibliography  : example.bib
 ~ End SidePanel
 
 ~ Begin MainPanel
+# Easy to Remember
+~ Aligned
+hc=1.24 *10^{-6} eV\dot m\\
+k_BT\approx \frac{1}{40} eV(T=300K)
+~
+
+
+hc=1.24 *10^-6
 
 # Quantum Physics History
 
@@ -29,5 +37,12 @@ Bibliography  : example.bib
 ~ Equation
 \rho(\nu,T)d\nu=\frac{8\pi h \nu^3}{c^3}\frac{1}{e^{h\nu/k_B T}-1}d\nu
 ~
+
+康普顿效应
+
+~ Equation
+\Delta \lambda=\lambda_c (1-\cos\theta)=\frac{h}{m_e c}(1-\cos\theta)
+~
+
 
 ~ End MainPanel
