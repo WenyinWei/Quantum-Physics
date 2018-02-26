@@ -1,0 +1,33 @@
+.madoko { html-lang: zh-Hans-CN; } <!-- 全文定义，头上来一行就够 -->
+<!-- 可以写成 class：-->
+.cn { html-lang: zh-Hans-CN } <!-- 谁给个日语版的 CN block 那一段，我好改成 ja？ -->
+.tw { html-lang: zh-Hans-TW }
+
+Title         : My Academic Paper
+
+Author        : You
+Affiliation   : Research institute
+Email         : you@bar.com
+
+Bibliography  : example.bib
+
+[INCLUDE=book]
+[INCLUDE=webtoc]
+[INCLUDE=webanchors]
+
+[TITLE]
+
+~ Begin SidePanel
+[TOC]
+~ End SidePanel
+
+~ Begin MainPanel
+
+# Quantum Physics History
+
+单位体积内电磁波在 $\nu +\nu+d\nu$频段的能量.
+~ Equation
+\rho(\nu,T)d\nu=\frac{8\pi h \nu^3}{c^3}\frac{1}{e^{h\nu/k_B T}-1}d\nu
+~
+
+~ End MainPanel
