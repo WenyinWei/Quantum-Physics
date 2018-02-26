@@ -1,7 +1,4 @@
-.madoko { html-lang: zh-Hans-CN; } <!-- 全文定义，头上来一行就够 -->
-<!-- 可以写成 class：-->
-.cn { html-lang: zh-Hans-CN } <!-- 谁给个日语版的 CN block 那一段，我好改成 ja？ -->
-.tw { html-lang: zh-Hans-TW }
+
 
 Title         : My Academic Paper
 
@@ -28,8 +25,6 @@ hc=1.24 *10^{-6} eV\dot m\\
 k_BT\approx \frac{1}{40} eV(T=300K)
 ~
 
-
-hc=1.24 *10^-6
 
 # Quantum Physics History
 
