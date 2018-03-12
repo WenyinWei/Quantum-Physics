@@ -44,4 +44,21 @@ E \rightarrow  i\hbar\frac{\partial }{\partial t}\\
 \vec{p}\rightarrow -i\hbar \nabla
 \end{matrix}\right.
 ~
+~ Equation
+-\frac{\hbar^2}{2m}\frac{\mathrm{d}^2 \psi}{\mathrm{d} x^2}+V(x)\psi=E\psi
+~
+
+~ Theorem{caption:Wronski Theorem}
+Judge two solutions of Schrodinger Equation whether they are linear independent or not.
+~
+
+~ Theorem{caption:共轭定理}
+If $\psi(x)$ is the solution fo a stationary Schrodinger Equation, $\psi^*$ is also a solution with the same E(Energy).
+~
+~ Theorem{caption:反射定理}
+
+~
+~ Definition{caption:简并度,Degenerate}
+
+~
 ~ End MainPanel
