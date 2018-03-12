@@ -61,4 +61,13 @@ If $\psi(x)$ is the solution fo a stationary Schrodinger Equation, $\psi^*$ is a
 ~ Definition{caption:简并度,Degenerate}
 
 ~
+~ Definition{caption:宇称,正负宇称,Parity}
+  $\psi(\vec{r})=\pm\psi(\vec{r})$
+~
+~ Theorem{caption:非简并定理}
+一维束缚态必是非简并态
+~
+量子力学讲义打印:
+周林翼
+魏文崟
 ~ End MainPanel
