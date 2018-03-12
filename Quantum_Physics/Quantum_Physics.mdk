@@ -38,6 +38,10 @@ k_BT\approx \frac{1}{40} eV(T=300K)
 ~ Equation
 \Delta \lambda=\lambda_c (1-\cos\theta)=\frac{h}{m_e c}(1-\cos\theta)
 ~
-
-
+~ Equation
+\left\{\begin{matrix}
+E \rightarrow  i\hbar\frac{\partial }{\partial t}\\ 
+\vec{p}\rightarrow -i\hbar \nabla
+\end{matrix}\right.
+~
 ~ End MainPanel
