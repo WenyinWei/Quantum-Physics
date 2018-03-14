@@ -80,6 +80,26 @@ If $\psi(x)$ is the solution fo a stationary Schrodinger Equation, $\psi^*$ is a
 有严格的理论证明离散本征值的存在.根据二阶常微分方程的通常解法,两个线性独立的解在物理中往往会因为发散去掉一个.
 ~
 
+
+
+## 无限深势阱
+~ Aligned
+k_n&=&\frac{\pi}{n}\\
+E_n&=&\frac{\hbar^2\pi^2}{2mL^2}n^2
+~
+实际上就是索莫菲定理的应用.
+
+让$\psi$和$\psi'$都在有限势能阶跃处连续,实质上等价于$\ln\psi$连续
+
+
+
+~ Equation
+\int_{-\infty}^{+\infty} \frac{\alpha}{\sqrt{\pi}}  e^{- \alpha^2 x^2}=1
+~
+
+
+
+
 量子力学讲义打印:
 周林翼
 魏文崟
